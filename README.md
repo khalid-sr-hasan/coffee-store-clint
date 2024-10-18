@@ -1,8 +1,23 @@
-# React + Vite
+# Coffee Store Clint
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a Coffee Store Client built using React and Vite. It offers a minimal setup with Hot Module Replacement (HMR) and ESLint rules to streamline development.
 
-Currently, two official plugins are available:
+Live Demo
+[Click here to view the live site: ](https://coffee-store-client-75b66.web.app/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+About
+This project is designed for users to browse and manage coffee products efficiently. It’s built with a focus on performance and user experience, making use of modern front-end technologies.
+
+Key Features
+Fast Development: Powered by Vite, ensuring fast refresh and build times.
+Modern JavaScript: Built with React and modern JavaScript features.
+ESLint Rules: Code is linted using ESLint for consistency and error checking.
+Plugins Used
+@vitejs/plugin-react uses Babel for Fast Refresh.
+@vitejs/plugin-react-swc uses SWC for Fast Refresh.
+Get Started
+To run the project locally:
+
+Clone the repository.
+Run npm install to install dependencies.
+Run npm run dev to start the development server.
