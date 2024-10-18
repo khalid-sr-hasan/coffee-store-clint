@@ -37,13 +37,16 @@ const Update = () => {
             confirmButtonText: "Yes, update it!",
         }).then((result) => {
             if (result.isConfirmed) {
-                fetch(`http://localhost:5000/coffees/${updateCoffee._id}`, {
-                    method: "PUT",
-                    headers: {
-                        "content-type": "application/json",
-                    },
-                    body: JSON.stringify(coffeeInfo),
-                })
+                fetch(
+                    `https://coffee-sotre-server.vercel.app/coffees/${updateCoffee._id}`,
+                    {
+                        method: "PUT",
+                        headers: {
+                            "content-type": "application/json",
+                        },
+                        body: JSON.stringify(coffeeInfo),
+                    }
+                )
                     .then((res) => res.json())
                     .then((data) => {
                         if (data.modifiedCount > 0) {

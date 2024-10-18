@@ -14,7 +14,7 @@ const Home = () => {
             <h1 className="text-center font-extrabold text-4xl mt-10">
                 All Coffee List : {coffees.length}
             </h1>
-            <div>
+            <div className="mt-5">
                 <Link to={"/addCoffee"}>
                     <button
                         className="btn

@@ -21,9 +21,7 @@ Plugins Used
 To run the project locally:
 
 Clone the repository.
-
 Run npm install to install dependencies.
-
 Run npm run dev to start the development server.
 
 Clone the repository.

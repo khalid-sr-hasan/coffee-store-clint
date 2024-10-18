@@ -19,7 +19,7 @@ const Login = () => {
                     lastLogAt: result.user.metadata?.lastSignInTime,
                 };
 
-                fetch("http://localhost:5000/users", {
+                fetch("https://coffee-sotre-server.vercel.app/users", {
                     method: "PATCH",
                     headers: {
                         "content-type": "application/json",

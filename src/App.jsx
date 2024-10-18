@@ -17,7 +17,7 @@ function App() {
     //         confirmButtonText: "Yes, delete it!",
     //     }).then((result) => {
     //         if (result.isConfirmed) {
-    //             fetch(`http://localhost:5000/coffees/${id}`, {
+    //             fetch(`https://coffee-sotre-server.vercel.app/coffees/${id}`, {
     //                 method: "DELETE",
     //             })
     //                 .then((res) => res.json())
