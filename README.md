@@ -17,10 +17,13 @@ Plugins Used
 @vitejs/plugin-react uses Babel for Fast Refresh.
 @vitejs/plugin-react-swc uses SWC for Fast Refresh.
 
-# Get Started
+## Get Started
 To run the project locally:
+
 Clone the repository.
+
 Run npm install to install dependencies.
+
 Run npm run dev to start the development server.
 
 Clone the repository.
